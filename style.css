@@ -1,0 +1,78 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #1d2b1f, #4c5f47);
+  color: white;
+  text-align: center;
+}
+
+/* BOTÃO */
+button {
+  margin: 15px;
+  padding: 10px 20px;
+  background: gold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* LAYOUT PRINCIPAL */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* GRUPOS */
+#grupos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 65%;
+}
+
+/* CARD DE GRUPO */
+.grupo {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* TABELAS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  color: black;
+  font-size: 12px;
+}
+
+th, td {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background: #111;
+  color: white;
+}
+
+/* ARTILHEIROS */
+.artilheiros-box {
+  width: 250px;
+}
+
+/* JOGOS */
+#lista-jogos {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-jogos li {
+  background: rgba(255,255,255,0.2);
+  margin: 5px auto;
+  padding: 8px;
+  width: 40%;
+  border-radius: 6px;
+}
